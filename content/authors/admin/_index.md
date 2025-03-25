@@ -11,7 +11,7 @@ last_name: Chien
 
 # Status emoji
 status:
-  icon: ![alt text](_1_大狮子的小兔子_来自小红书网页版.jpg)
+  icon: custom/test
 
 # Is this the primary user of the site?
 superuser: true
