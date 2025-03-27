@@ -9,17 +9,49 @@ design:
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 # Page sections
+# sections:
+#   - block: markdown
+#     id: section-1
+#     design:
+#       spacing:
+#         padding: ["0", "0"]  # 垂直30px/水平0
+#         margin: ["0", "0"]   # 上下0/左右居中
+#       width: "full"          # 关键参数
+#     content:
+#       text: |
+#         <img src="static/media/ICCV_intro.svg"  style="width: 100%; height: auto;" ></center>
+
 sections:
-  - block: markdown
-    id: section-1
-    design:
-      spacing:
-        padding: ["0", "0"]  # 垂直30px/水平0
-        margin: ["0", "0"]   # 上下0/左右居中
-      width: "full"          # 关键参数
+  - block: collection
+    id: posts
     content:
-      text: |
-        <img src="static/media/ICCV_intro.svg"  style="width: 100%; height: auto;" >
+      title: Recent Posts
+      subtitle: ''
+      text: 'Check out my recent blog posts below!'
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        # The folders to display content from
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        publication_type: ""
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      # Choose how many pages you would like to offset by
+      # Useful if you wish to show the first item in the Featured widget
+      offset: 0
+      # Field to sort by, such as Date or Title
+      sort_by: 'Date'
+      sort_ascending: false
+    design:
+      # Choose a listing view
+      view: card
 
   # - block: image
   #   image:
