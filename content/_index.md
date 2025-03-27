@@ -14,8 +14,8 @@ sections:
     id: section-1
     design:
       spacing:
-        padding: ["30px", "0"]  # 垂直30px/水平0
-        margin: ["0", "auto"]   # 上下0/左右居中
+        padding: ["0", "0"]  # 垂直30px/水平0
+        margin: ["0", "0"]   # 上下0/左右居中
     content:
       text: |
         ![head](static/media/ICCV_intro.svg)
