@@ -11,6 +11,8 @@ design:
 
 # Page sections
 sections:
+  ![Intro](ICCV.jpg)
+  
   - block: biography
     content:
       username: admin
