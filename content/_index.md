@@ -10,7 +10,6 @@ design:
 # Note: `username` refers to the user's folder name in `content/authors/`
 # Page sections
 sections:
-  sections:
   - block: markdown
     id: section-1
     content:
