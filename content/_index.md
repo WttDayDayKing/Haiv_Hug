@@ -13,9 +13,8 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: Section 1
-      subtitle: A subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      image: "ICCV.jpg"  # 图片放在static/media/目录下
+      image_position: "center"
   
   # - block: biography
   #   # content:
