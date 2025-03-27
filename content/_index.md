@@ -18,7 +18,7 @@ sections:
         margin: ["0", "0"]   # 上下0/左右居中
     content:
       text: |
-        <img src="static/media/ICCV_intro.svg"  style="width: 100%; height: auto;" >
+        <img src="static/media/ICCV_intro.svg"  style="width: 50%; height: auto;" >
 
   # - block: image
   #   image:
