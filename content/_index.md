@@ -13,8 +13,6 @@ sections:
   - block: markdown
     id: section-1
     content:
-      title: Section 1
-      subtitle: A subtitle
       text: ![head](static/media/ICCV.jpg)
   
   # - block: biography
