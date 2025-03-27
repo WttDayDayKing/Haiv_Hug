@@ -13,7 +13,7 @@ sections:
   - block: markdown
     id: section-1
     content:
-      text: ![head](static/media/ICCV.jpg)
+      text: ![head](/media/ICCV.jpg)
   
   # - block: biography
   #   # content:
