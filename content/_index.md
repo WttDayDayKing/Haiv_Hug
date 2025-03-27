@@ -13,8 +13,9 @@ sections:
   - block: markdown
     id: section-1
     content:
-      image: "ICCV.jpg"  # 图片放在static/media/目录下
-      image_position: "center"
+      title: Section 1
+      subtitle: A subtitle
+      text: ![head](static/media/ICCV.jpg)
   
   # - block: biography
   #   # content:
