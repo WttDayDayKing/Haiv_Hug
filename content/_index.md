@@ -6,7 +6,7 @@ type: landing
 design:
   # Default section spacing
   spacing: "4rem"
-<img src="static/media/ICCV_intro.svg" alt="Image Alt Text" style="width: 100%; height: auto;">
+
 # Note: `username` refers to the user's folder name in `content/authors/`
 # Page sections
 sections:
@@ -18,7 +18,7 @@ sections:
         margin: ["0", "0"]   # 上下0/左右居中
     content:
       text: |
-        <img src="static/media/ICCV_intro.svg"  width="100%" >
+        <img src="static/media/ICCV_intro.svg"  style="width: 100%; height: auto;" >
 
   # - block: image
   #   image:
