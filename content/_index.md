@@ -13,7 +13,7 @@ sections:
   
   - block: biography
     content:
-      username: admin
+      # username: admin
       # Show a call-to-action button under your biography? (optional)
       # button:
       #   text: Download Résumé
