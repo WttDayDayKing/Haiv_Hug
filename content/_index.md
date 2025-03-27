@@ -10,11 +10,18 @@ design:
 # Note: `username` refers to the user's folder name in `content/authors/`
 # Page sections
 sections:
-  - block: markdown
-    id: section-1
-    content:
-      text: |
-        ![head](static/media/ICCV_intro.svg)
+  # - block: markdown
+  #   id: section-1
+  #   content:
+  #     text: |
+  #       ![head](static/media/ICCV_intro.svg)
+
+  - block: image
+    image:
+      path: "static/media/ICCV_intro.svg"
+    design:
+      width: full  # 关键参数
+      spacing: none  # 移除内外边距
   
   # - block: biography
   #   # content:
