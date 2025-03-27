@@ -10,23 +10,30 @@ design:
 # Note: `username` refers to the user's folder name in `content/authors/`
 # Page sections
 sections:
+  sections:
+  - block: markdown
+    id: section-1
+    content:
+      title: Section 1
+      subtitle: A subtitle
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
   
-  - block: biography
-    # content:
-      # username: admin
-      # Show a call-to-action button under your biography? (optional)
-      # button:
-      #   text: Download Résumé
-      #   url: uploads/resume.pdf
-    design:
-      banner:
-        # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: ICCV.jpg
-        size: "cover"  # 关键参数！可选值：contain/cover/auto
-        # filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
-      # biography:
-      #   # Customize the style of your biography text
-      #   style: 'text-align: justify; font-size: 0.8em;'
+  # - block: biography
+  #   # content:
+  #     # username: admin
+  #     # Show a call-to-action button under your biography? (optional)
+  #     # button:
+  #     #   text: Download Résumé
+  #     #   url: uploads/resume.pdf
+  #   design:
+  #     banner:
+  #       # Upload your cover image to the `assets/media/` folder and reference it here
+  #       filename: ICCV.jpg
+  #       size: "cover"  # 关键参数！可选值：contain/cover/auto
+  #       # filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
+  #     # biography:
+  #     #   # Customize the style of your biography text
+  #     #   style: 'text-align: justify; font-size: 0.8em;'
   # - block: experience
   #   content:
   #     username: admin
