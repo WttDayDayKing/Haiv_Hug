@@ -23,6 +23,7 @@ sections:
   - block: markdown
     id: section-1
     design:
+      spacing: none  # 移除内外边距
       spacing:
         padding: ["0", "0"]  # 垂直30px/水平0
         margin: ["0", "0"]   # 上下0/左右居中
