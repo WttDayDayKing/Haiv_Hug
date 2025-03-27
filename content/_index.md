@@ -11,22 +11,16 @@ design:
 # Page sections
 
 sections:
-  - block: hero  # 全屏横幅
+  - block: markdown
+    id: section-1
+    design:
+      spacing:
+        padding: ["0", "0"]  # 垂直30px/水平0
+        margin: ["0", "0"]   # 上下0/左右居中
+      width: "full"          # 关键参数
     content:
-      title: ""
-      image: static/media/ICCV_intro.svg
-
-# sections:
-#   - block: markdown
-#     id: section-1
-#     design:
-#       spacing:
-#         padding: ["0", "0"]  # 垂直30px/水平0
-#         margin: ["0", "0"]   # 上下0/左右居中
-#       width: "full"          # 关键参数
-#     content:
-#       text: |
-#         <img src="static/media/ICCV_intro.svg"  style="width: 100%; height: auto;" ></center>
+      text: |
+        <img src="static/media/ICCV_intro.svg"  style="width: 100%; height: auto;" ></center>
 
 # sections:
 #   - block: collection
