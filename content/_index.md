@@ -12,7 +12,7 @@ design:
 sections:
   
   - block: biography
-    content:
+    # content:
       # username: admin
       # Show a call-to-action button under your biography? (optional)
       # button:
