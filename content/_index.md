@@ -14,7 +14,7 @@ sections:
   - block: hero  # 全屏横幅
     content:
       title: ""
-      image: "static/media/ICCV_intro.svg"
+      image: static/media/ICCV_intro.svg
 
 # sections:
 #   - block: markdown
