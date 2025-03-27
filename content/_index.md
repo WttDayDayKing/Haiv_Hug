@@ -14,7 +14,7 @@ sections:
     id: section-1
     content:
       text: |
-        ![head](static/media/ICCV.jpg)
+        ![head](static/media/ICCV_intro.svg)
   
   # - block: biography
   #   # content:
